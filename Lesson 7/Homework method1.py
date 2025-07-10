@@ -1,6 +1,7 @@
-Character = input("Enter a character")
+Ascii = input("Enter anything")
 
-ASCII = Character.ord()
+if(len(Ascii)>1):
+    print("Enter only one character")
 
-print("The ASCII value for the given number is", ASCII)
-
+else:
+    print(ord(Ascii))
