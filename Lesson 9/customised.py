@@ -6,7 +6,7 @@ choice = int(input("Enter your choice"))
 
 if(choice == 1):
     print("What type of bike")
-
+ # When using nested if conditions you should put all statements that you want to be a part of the 
     print("1. scooty")
     print("2. scooter")
     choice2 = int(input("Enter your choice between the two"))
