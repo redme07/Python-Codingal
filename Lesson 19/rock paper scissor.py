@@ -2,7 +2,7 @@ import random
 while True:
     options = ["rock", "paper", "scissors"]
 
-    comp_choice = random.choice(options)
+    comp_choice = random.choice(options)#.choice lets you chose what you want you want to randomize
     user = input("Enter rock or paper or scissors")
 
 
