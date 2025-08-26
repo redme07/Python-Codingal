@@ -5,7 +5,7 @@ def circumfrnce(method):
         diameter = float(input("Enter the diameter of the circle"))
         circumfrance = 3.1415 * diameter
         return circumfrance
-    elif method == 3:
+    elif method == 2:
         radius = float(input("Enter the radius"))
         circumfrance2 = 2*3.1415*radius
         return circumfrance2
