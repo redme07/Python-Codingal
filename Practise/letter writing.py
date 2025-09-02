@@ -1,0 +1,262 @@
+import turtle
+
+turtle.Screen().bgcolor("red")
+turtle.setup()
+letters = turtle.Turtle()
+word = input("Enter a word(smallcase): ")
+
+for i in word:
+    if i == "a":
+        letters.forward(15)
+        
+        letters.penup()
+        letters.left(180)
+        letters.forward(5)
+        
+        letters.pendown()
+        letters.right(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.penup()
+        letters.left(90)
+        letters.forward(20)
+        letters.pendown()
+    elif i == "b":
+        letters.forward(15)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(15)
+        letters.left(90)
+        letters.forward(10)
+        letters.right(180)
+        letters.forward(20)
+        
+        letters.penup()
+        letters.right(90)
+        letters.forward(20)
+        letters.right(90)
+        letters.forward(20)
+        letters.left(90)
+        letters.pendown()
+    
+    elif i == "c":
+        letters.forward(10)
+        letters.penup()
+        letters.left(180)
+        letters.forward(10)
+        letters.pendown()
+        letters.right(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+
+        letters.penup()
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.pendown()
+
+    elif i == "d":
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(20)
+        
+        letters.penup()
+        letters.left(180)
+        letters.forward(10)
+        letters.right(90)
+        letters.pendown()
+
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+
+        letters.penup()
+        letters.left(90)
+        letters.forward(15)
+        letters.pendown()
+    elif i == "e":
+        letters.forward(10)
+        
+        letters.penup()
+        letters.right(180)
+        letters.forward(10)
+        letters.pendown()
+        
+        letters.right(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(10)
+
+        letters.penup()
+        letters.right(180)
+        letters.forward(15)
+        letters.right(90)
+        letters.forward(5)
+        letters.left(90)
+
+    elif i == "f":
+        letters.penup()
+        letters.forward(10)
+        letters.right(180)
+        letters.forward(10)
+        letters.pendown()
+
+        letters.right(180)
+        letters.forward(10)
+        letters.right(180)
+        letters.forward(5)
+        letters.left(90)
+        letters.forward(10)
+        letters.right(180)
+        letters.forward(20)
+        letters.right(90)
+        letters.forward(5)
+
+        letters.penup()
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.pendown()
+    elif i == "g":
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+
+        letters.penup()
+        letters.left(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.pendown()
+        
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(5)
+
+        letters.penup()
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(15)
+        letters.pendown()
+    elif i == "h":
+        letters.left(90)
+        letters.forward(20)
+
+        letters.penup()
+        letters.right(180)  
+        letters.forward(10)
+        letters.left(90)
+        letters.pendown()
+
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        letters.left(90)
+
+        letters.penup()
+        letters.forward(5)
+        letters.pendown() 
+    elif i == "i":
+        letters.left(90)
+        letters.forward(10)
+        letters.penup()
+        letters.forward(5)
+        letters.pendown()
+        letters.forward(2.5)
+
+        letters.penup()
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(17.5)
+        letters.left(90)
+        letters.pendown()
+    elif i == "j":
+        letters.penup()
+        letters.forward(5)
+        letters.pendown()
+
+        letters.left(90)
+        letters.forward(7.5)
+        
+        letters.penup()
+        letters.forward(3.5)
+        letters.pendown()
+        
+        letters.forward(2.5)
+        
+        letters.penup()
+        letters.right(180)
+        letters.forward(13.5)
+        letters.pendown()
+        
+        letters.forward(7.5)
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(5)
+        
+        letters.penup()
+        letters.forward(2.5)
+        letters.right(90)
+        letters.forward(10)
+
+        letters.penup()
+        letters.forward(5)
+        letters.pendown()
+    
+    elif i == "k":
+        letters.left(90)
+        letters.forward(20)
+        letters.penup()
+        letters.right(180)
+        letters.forward(10)
+        letters.pendown()
+        letters.left(45)
+        letters.forward(15)
+        letters.right(180)
+        letters.forward(13)
+        letters.left(90)
+        letters.forward(15)
+
+        
+
+    elif i == "l":
+        letters.left(90)
+        letters.forward(20)
+        letters.right(180)
+        letters.forward(20)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(5)
+        
+        letters.penup()
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(5)
+        letters.left(90)
+        letters.pendown()
+
+
+
+
+
+turtle.done()
