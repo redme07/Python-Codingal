@@ -224,26 +224,41 @@ for i in word:
     elif i == "k":
         letters.left(90)
         letters.forward(20)
+        
         letters.penup()
         letters.right(180)
         letters.forward(10)
         letters.pendown()
-        letters.left(45)
-        letters.forward(15)
-        letters.right(180)
-        letters.forward(13)
-        letters.left(90)
-        letters.forward(15)
-
         
-
+        letters.left(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        
+        letters.penup()
+        letters.right(180)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(8)
+        
+        letters.pendown()
+        letters.right(135)
+        letters.forward(13)
+        
+        letters.penup()
+        letters.right(45)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(20)
+        letters.left(90)
+        letters.pendown()
     elif i == "l":
         letters.left(90)
         letters.forward(20)
         letters.right(180)
         letters.forward(20)
         letters.left(90)
-        letters.forward(10)
+        letters.forward(5)
         letters.left(90)
         letters.forward(5)
         
@@ -254,9 +269,100 @@ for i in word:
         letters.forward(5)
         letters.left(90)
         letters.pendown()
+    elif i == "m":
+        letters.left(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(10)
+        
+        letters.penup()
+        letters.right(180)
+        letters.forward(10)
+        letters.right(90)
+        letters.pendown()
+        
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(10)
+        letters.left(90)
+        
+        letters.penup()
+        letters.forward(5)
+        letters.pendown()
+    elif i == "n":
+        letters.left(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(10)
+        
+        letters.penup()
+        letters.left(90)
+        letters.forward(5)
+        letters.pendown()
+    elif i == "o":
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(10)
+        letters.left(90)
+        
+        letters.penup()
+        letters.forward(15)
+        letters.pendown()
+    elif i == "p":
+        letters.right(90)
+        letters.forward(7.5)
+        
+        letters.penup()
+        letters.left(180)
+        letters.forward(7.5)
+        letters.pendown()
+        
+        letters.forward(10)
+        letters.right(90)
+        letters.forward(7.5)
+        letters.right(90)
+        letters.forward(7.5)
+        letters.right(90)
+        letters.forward(7.5)
+        letters.right(180)
 
+        letters.penup()
+        letters.forward(12.5)
+        letters.pendown()
+    elif i == "q":
+        letters.right(90)
+        letters.forward(7.5)
+        letters.left(90)
+        letters.forward(5)
+        letters.left(90)
+        letters.forward(5)        
+        
+        letters.penup()
+        letters.left(180)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(5)
+        letters.right(90)
+        letters.forward(7.5)
+        letters.pendown()
+        
+        letters.forward(10)
+        letters.left(90)
+        letters.forward(7.5)
+        letters.left(90)
+        letters.forward(7.5)
+        letters.left(90)
+        letters.forward(7.5)
 
-
-
-
+        letters.penup()
+        letters.forward(10)
+        letters.pendown()
 turtle.done()
