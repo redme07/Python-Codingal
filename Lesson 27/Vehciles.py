@@ -10,4 +10,3 @@ modelx = vehicles(20, 300)
 
 print(f"The maximum speed of modelx is {modelx.maxspeed}")
 print(f"The mileage of modelx is {modelx.mileage}")
-
