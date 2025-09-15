@@ -10,7 +10,7 @@ def palindrome(r):
 
     return True
 
-r = (1,2,3,3,2,1)
+r = (2,3,4,4,3,2)
 
 if palindrome(r):
     print(f"The tuple {r} is a palindrome")
