@@ -9,10 +9,10 @@ def div(p, q):
 
 print("Please select the operation\nChoose option a: add\nChoose option b: subtract\nChoose option c: multiply\nChoose option d: divide")
 
-choice = input("Enter your choice")
+choice = input("Enter your choice: ")
 
-num1 = float(input("Enter the first number"))
-num2 = float(input("Enter the second number"))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
 if choice == "a" or choice == "A":
     print(f"{num1} + {num2} = {add(num1, num2)}")
