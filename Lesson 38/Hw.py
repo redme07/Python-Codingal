@@ -1,5 +1,6 @@
 def flip(a,size,choice):
     flipper = 0
+    counter = 0
     if choice == 1:
         flipper = 0
     else:
@@ -7,7 +8,8 @@ def flip(a,size,choice):
     for i in range(size):
         if a[i] == choice:
             a[i] = flipper
-    return a
+            counter += 1
+    return counter
 
 a = [0,0,1,1,0,0,0,1,0,1,0,1,0]
 choice = 0
