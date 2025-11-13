@@ -4,10 +4,10 @@ def small(nums, left = None, right = None):
         left,right = 0,len(nums)-1
 
     if left > right:
-        return left
+        return left + nums[0]
     mid = left + (right-left) // 2
 
-    if nums[mid] == mid:
+    if nums[mid] == nums[0]+mid:
         return small(nums, mid+1,right)
     else:
         return small(nums, left,mid-1)
