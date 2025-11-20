@@ -1,3 +1,21 @@
-arr = [2, 10, 5, 7, 1, 9]
-max_diff = max(arr) - min(arr)
-print("The maximum difference between two elements is", max_diff)
+arr = [1, 3, 5, 7, 9, 11, 13, 15]
+target = 9
+
+low = 0
+high = len(arr) - 1
+found = -1
+
+while low <= high:
+    mid = (low + high) // 2
+    if arr[mid] == target:
+        found = mid
+        break
+    elif arr[mid] < target:
+        low = mid + 1
+    else:
+        high = mid - 1
+
+if found != -1:
+    print("Element found at index", found)
+else:
+    print("Element not found in the array.")
